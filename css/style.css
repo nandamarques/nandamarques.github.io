@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 body {
-  background-color: #FF9800;
-  font-family: 'Open Sans';
+  background-color: #FFF9C4;
+  font-family: 'Montserrat';
 }
 
 section {
@@ -11,21 +13,40 @@ box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
   margin-right: auto;
   max-width: 500px;
   margin-top: 100px;
-  background-color: white; 
+  background-color: #26305a; 
   padding: 15px;
   border: 1px solid black;
   border-radius: 5px;
 }
 
 section h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
   font-size: 30px;
+  color: white;
+  font-weight: bold
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-weight: bold
+}
+
+section h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-weight: bold
 }
 
 header {
-  background-image: url('https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Fbamsmackpow.com%2Ffiles%2F2022%2F06%2FStrangerThings_StrangerThings4_8_00_34_59_04_R.jpg');
+  background-image: url('https://i.pinimg.com/originals/14/97/dc/1497dc4d357d0ffb81d5e060b489a055.png');
   background-size: cover;
-  /*https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-size*/
-  height: 180px;
+  height: 100px;
   border-radius: 5px;
 }
 
@@ -34,6 +55,16 @@ div {
   border-radius: 5px;
   border: 1px solid black;
   /*propriedade visual: valor */
-  background-color: #B3E5FC;
+  background-color: #da5252;
 }
 
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-50%);
+  border: 8px solid #15225a;
+}
