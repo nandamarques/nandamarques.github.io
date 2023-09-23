@@ -27,21 +27,66 @@ section h1 {
   font-weight: bold
 }
 
+section ul {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-right: 25px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold
+}
+
 section h2 {
   font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 20px;
+  text-align: center;
+  font-size: 24px;
   color: white;
   font-weight: bold
 }
 
 section h3 {
   font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 20px;
+  text-align: center;
+  font-size: 24px;
   color: white;
   font-weight: bold
 }
+
+section h4 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold
+}
+
+section p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  font-weight: bold
+
+}
+
+
+section h5 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold
+}
+
+section h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold
+}
+
+
 
 header {
   background-image: url('https://i.pinimg.com/originals/14/97/dc/1497dc4d357d0ffb81d5e060b489a055.png');
