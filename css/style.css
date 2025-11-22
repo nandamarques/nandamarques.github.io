@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 0; 
+  display: flex;
+  justify-content: center;
   background-color: #FFF9C4;
   font-family: 'Montserrat';
 }
 
 section {
   -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59); 
-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto 0; /* centraliza verticalmente quando possível */
   max-width: 500px;
-  margin-top: 100px;
-  background-color: #26305a; 
+  background-color: #26305a;
   padding: 15px;
   border: 1px solid black;
   border-radius: 5px;
+  box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
 }
 
 section h1 {
@@ -91,8 +93,8 @@ section h6 {
 header {
   background-image: url('https://i.pinimg.com/originals/14/97/dc/1497dc4d357d0ffb81d5e060b489a055.png');
   background-size: cover;
-  height: 100px;
   border-radius: 5px;
+  padding: 25px 0;
 }
 
 div {
@@ -110,6 +112,5 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  transform: translateY(-50%);
   border: 8px solid #15225a;
 }
